@@ -1,5 +1,10 @@
 # VM-VOLL 
 
+   ** vagrant.yml
+
+        Configure vm-voll-xx beforehand, please!
+
+
 ## General Information
 
     - DEVOPS Location    :
