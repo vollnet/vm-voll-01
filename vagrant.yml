@@ -5,10 +5,10 @@
 # VBox Fixed IP [10.10.125.101 a 10.10.125.199] 
 #               [192.168.0.101 a 192.168.0.199] 
 #
-ip_address:     10.10.125.101
+ip_address:     192.168.0.101
 #
 # VBox Bridge
-name_bridge:    "ens160" # LAN: "ens33", "ens160", "eth0"| Wi-Fi: "wlo1" 
+name_bridge:    "eth0" # LAN: "ens33", "ens160", "eth0"| Wi-Fi: "wlo1" 
 #
 # VBox SO
 type_vbox:      "ubuntu/focal64"

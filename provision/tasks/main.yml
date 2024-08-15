@@ -57,7 +57,7 @@
   hosts: all
   gather_facts: no
   vars:
-    vm_name: "vm-voll" # alterar 'vm_name' no vagrant.yml
+    vm_name: "vm-voll-101" # alterar 'vm_name' no vagrant.yml
 
   tasks: 
     - name: Set timezone to America/Sao_Paulo
