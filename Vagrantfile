@@ -1,4 +1,4 @@
-# -*- mode: ruby -*-
+	# -*- mode: ruby -*-
 	# vi: set ft=ruby :
 	#
 
@@ -25,7 +25,8 @@
 	    #
 	    # define app vbox (VM-Work)
 	    #
-	    config.vm.define :voll do |app_config|
+		#config.vm.define :voll do |app_config|
+	    config.vm.define settings['project'] do |app_config|
 	      #
 	      # vm-vagrant distro: Official Ubuntu 20.04 LTS
 	      app_config.vm.box = settings['type_vbox']
@@ -47,7 +48,7 @@
 		#
 		# define tamanho da memória RAM da VM
 		#
-		ap.customize ["modifyvm", :id, "--memory", "1024"]
+		ap.customize ["modifyvm", :id, "--memory", "1024", "--cpus", "2"]
 		#
 		# Projeto: nome da vm-vagrant
 		#
@@ -68,4 +69,4 @@
 	    #
 	    #
 	  end
-       
+

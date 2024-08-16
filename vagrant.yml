@@ -16,8 +16,11 @@ type_vbox:      "ubuntu/focal64"
 # Vbox Name
 vm_hostname:    "developer"
 #
-# VBox Virtual Name
+# VBox Machine Name
 vm_name:        "vm-voll-101"
+#
+# VBox Virtual Name
+project:     "project-name"
 #
 # VBox Provisioning 
 ansible_path:   "/home/developer/vms-vagrant/vm-voll-101/provision/tasks/main.yml"
